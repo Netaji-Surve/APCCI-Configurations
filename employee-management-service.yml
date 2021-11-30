@@ -3,3 +3,8 @@ server:
 logging:
   level:
     root: INFO
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://evento_admin:evento_admin@cluster0.01whe.mongodb.net/EmployeeManagementDB?retryWrites=true&w=majority
+      database: EmployeeManagementDB
