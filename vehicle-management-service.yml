@@ -3,7 +3,8 @@ server:
 logging:
   level:
     root: INFO
-  file: D:\Work\APCCI-Microservices\vehicle-management-service\vehicle-app.log
+  config: classpath:logback-spring.xml
+  file: logs/logfile.log
 #spring:
 #  data:
 #    mongodb:
