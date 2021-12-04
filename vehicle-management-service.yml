@@ -3,7 +3,7 @@ server:
 logging:
   level:
     root: INFO
-  file: vehicle-app.log
+  file: D:\Work\APCCI-Microservices\vehicle-management-service\vehicle-app.log
 #spring:
 #  data:
 #    mongodb:
