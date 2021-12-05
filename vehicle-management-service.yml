@@ -3,8 +3,6 @@ server:
 logging:
   level:
     root: INFO
-  config: classpath:logback-spring.xml
-  file: logs/logfile.log
 #spring:
 #  data:
 #    mongodb:
